@@ -130,7 +130,6 @@
 				3CCCCD0D1E557C4100B0009A /* Assets.xcassets */,
 				3CCCCD0F1E557C4100B0009A /* LaunchScreen.storyboard */,
 				3CCCCD121E557C4100B0009A /* Info.plist */,
-				3CCCCD7C1E559F5100B0009A /* Utiliy.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -141,6 +140,7 @@
 				3CCCCD061E557C4100B0009A /* AppDelegate.swift */,
 				3CCCCD081E557C4100B0009A /* ViewController.swift */,
 				3CCCCD0A1E557C4100B0009A /* Main.storyboard */,
+				3CCCCD7C1E559F5100B0009A /* Utiliy.swift */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
