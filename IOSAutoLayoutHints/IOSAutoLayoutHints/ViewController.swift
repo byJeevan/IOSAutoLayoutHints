@@ -7,9 +7,7 @@
 //
 
 import UIKit
-/*
- 
- ****************************************************
+/*****************************************************
  ******     Menu table view controller    ***********
  ****************************************************
  
@@ -75,9 +73,7 @@ import UIKit
  - Equal width.
  - Horizontal spacing.
  
- *****************************************************
-
-*/
+ *****************************************************/
 
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
@@ -88,11 +84,14 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.menuItems = ["1. Center of a view - Fixed w&h",
+        self.menuItems = ["1. Center of a view - Fixed W & H",
                           "2. Always retain Button @ bottom ",
                           "3. A pair views are (horizontal) of same width in both orientation",
                           "4. Two Views with Complex Width",
-                          "5. A pair views (vertical) are of same width in both orientation"
+                          "5. A pair views (vertical) are of same width in both orientation",
+                          "6. Float view to left from Bottom when rotates landscape.",
+                          "7. Button, Lable on top, Flexible image view",
+                          "8. Stack view screen senario 1"
                        
         ]
         self.menuTable.delegate = self;

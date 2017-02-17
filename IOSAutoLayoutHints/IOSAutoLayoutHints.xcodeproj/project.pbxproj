@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C8CB4D21E56D28E0066BF9A /* cabriolet_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C8CB4CD1E56D28E0066BF9A /* cabriolet_black.png */; };
+		3C8CB4D31E56D28E0066BF9A /* ferrari.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C8CB4CE1E56D28E0066BF9A /* ferrari.png */; };
+		3C8CB4D41E56D28E0066BF9A /* lexus.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C8CB4CF1E56D28E0066BF9A /* lexus.png */; };
+		3C8CB4D51E56D28E0066BF9A /* mazda.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C8CB4D01E56D28E0066BF9A /* mazda.png */; };
+		3C8CB4D91E56D33C0066BF9A /* ferrari_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C8CB4D71E56D33C0066BF9A /* ferrari_2.png */; };
+		3C8CB4DA1E56D33C0066BF9A /* ford_puma.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C8CB4D81E56D33C0066BF9A /* ford_puma.png */; };
 		3CCCCD071E557C4100B0009A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCCCD061E557C4100B0009A /* AppDelegate.swift */; };
 		3CCCCD091E557C4100B0009A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCCCD081E557C4100B0009A /* ViewController.swift */; };
 		3CCCCD0C1E557C4100B0009A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CCCCD0A1E557C4100B0009A /* Main.storyboard */; };
@@ -35,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C8CB4CD1E56D28E0066BF9A /* cabriolet_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cabriolet_black.png; sourceTree = "<group>"; };
+		3C8CB4CE1E56D28E0066BF9A /* ferrari.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ferrari.png; sourceTree = "<group>"; };
+		3C8CB4CF1E56D28E0066BF9A /* lexus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lexus.png; sourceTree = "<group>"; };
+		3C8CB4D01E56D28E0066BF9A /* mazda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mazda.png; sourceTree = "<group>"; };
+		3C8CB4D71E56D33C0066BF9A /* ferrari_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ferrari_2.png; sourceTree = "<group>"; };
+		3C8CB4D81E56D33C0066BF9A /* ford_puma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ford_puma.png; sourceTree = "<group>"; };
 		3CCCCD031E557C4100B0009A /* IOSAutoLayoutHints.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSAutoLayoutHints.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CCCCD061E557C4100B0009A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CCCCD081E557C4100B0009A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +136,7 @@
 		3CCCCD731E557E9400B0009A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3CCCCD7F1E55D9FD00B0009A /* Scene 8 Assets */,
 				3CCCCD1A1E557C4100B0009A /* IOSAutoLayoutHintsTests */,
 				3CCCCD251E557C4100B0009A /* IOSAutoLayoutHintsUITests */,
 				3CCCCD041E557C4100B0009A /* Products */,
@@ -143,6 +156,19 @@
 				3CCCCD7C1E559F5100B0009A /* Utiliy.swift */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3CCCCD7F1E55D9FD00B0009A /* Scene 8 Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3C8CB4CD1E56D28E0066BF9A /* cabriolet_black.png */,
+				3C8CB4CE1E56D28E0066BF9A /* ferrari.png */,
+				3C8CB4D71E56D33C0066BF9A /* ferrari_2.png */,
+				3C8CB4D81E56D33C0066BF9A /* ford_puma.png */,
+				3C8CB4CF1E56D28E0066BF9A /* lexus.png */,
+				3C8CB4D01E56D28E0066BF9A /* mazda.png */,
+			);
+			name = "Scene 8 Assets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +239,7 @@
 				TargetAttributes = {
 					3CCCCD021E557C4100B0009A = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 77Z62D8Y73;
 						ProvisioningStyle = Automatic;
 					};
 					3CCCCD161E557C4100B0009A = {
@@ -253,8 +280,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CCCCD111E557C4100B0009A /* LaunchScreen.storyboard in Resources */,
+				3C8CB4D51E56D28E0066BF9A /* mazda.png in Resources */,
+				3C8CB4DA1E56D33C0066BF9A /* ford_puma.png in Resources */,
 				3CCCCD0E1E557C4100B0009A /* Assets.xcassets in Resources */,
 				3CCCCD0C1E557C4100B0009A /* Main.storyboard in Resources */,
+				3C8CB4D91E56D33C0066BF9A /* ferrari_2.png in Resources */,
+				3C8CB4D21E56D28E0066BF9A /* cabriolet_black.png in Resources */,
+				3C8CB4D31E56D28E0066BF9A /* ferrari.png in Resources */,
+				3C8CB4D41E56D28E0066BF9A /* lexus.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,9 +466,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 77Z62D8Y73;
 				INFOPLIST_FILE = IOSAutoLayoutHints/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.byjeevan.IOSAutoLayoutHints;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -447,9 +480,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 77Z62D8Y73;
 				INFOPLIST_FILE = IOSAutoLayoutHints/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.byjeevan.IOSAutoLayoutHints;
 				PRODUCT_NAME = "$(TARGET_NAME)";
