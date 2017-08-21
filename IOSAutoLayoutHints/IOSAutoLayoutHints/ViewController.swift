@@ -84,23 +84,20 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.menuItems = ["1. Center of a view - Fixed W & H",
-                          "2. Always retain Button @ bottom ",
-                          "3. A pair views are (horizontal) of same width in both orientation",
-                          "4. Two Views with Complex Width",
-                          "5. A pair views (vertical) are of same width in both orientation",
+        self.menuItems = ["1. Center of Parent : Fixed W & H.",
+                          "2. Keep Button @ bottom.",
+                          "3. A pair views : Equal W + both O.",
+                          "4. A pair views : Un-Even W + both O.",
+                          "5. A pair textfields : Equal W + both O + Center of parent.",
                           "6. Float view to left from Bottom when rotates landscape.",
-                          "7. Button, Lable on top, Flexible image view",
-                          "8. Stack view screen senario 1"
+                          "7. Button & Lable on top + Flexible image view frame.",
+                          "8. Stack view screen Use Case 1."
                        
         ]
+        
         self.menuTable.delegate = self;
         self.menuTable.dataSource = self;
-        
-        let line:String? = readLine();
-        
-        print("We got \(line ?? "--")")
-        
+  
     }
 
     override func didReceiveMemoryWarning() {
@@ -108,7 +105,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         // Dispose of any resources that can be recreated.
     }
 
-    // MARK: - Table view data source
+    //MARK:- Table view data source
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int
     {
