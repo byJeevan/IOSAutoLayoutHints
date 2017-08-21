@@ -96,6 +96,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         ]
         self.menuTable.delegate = self;
         self.menuTable.dataSource = self;
+        
+        let line:String? = readLine();
+        
+        print("We got \(line ?? "--")")
+        
     }
 
     override func didReceiveMemoryWarning() {
